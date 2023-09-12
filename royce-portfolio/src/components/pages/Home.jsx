@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import Button from './Button'
-import Links from './Links'
 import { motion } from 'framer-motion'
-
+import Button from '../Button';
+import Links from '../Links';
+import "../../index.css"
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
         <Button />
       </div>
       <div className='absolute bottom-0'>
-         <Links /> 
+         <Links />
       </div>
     </div>
   );
