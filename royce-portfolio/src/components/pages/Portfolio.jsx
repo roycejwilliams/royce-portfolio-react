@@ -1,13 +1,13 @@
-import React from 'react'
-import "../../index.css"
+import React from 'react';
+import "../../index.css";
 
 
-const portfolio = () => {
+const Portfolio = () => {
   return (
-    <div className='bg-400-red'>
+    <div className=' w-screen h-screen '>
 
     </div>
   )
 }
 
-export default portfolio
+export default Portfolio;

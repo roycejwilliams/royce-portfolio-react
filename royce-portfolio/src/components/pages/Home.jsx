@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import { motion } from 'framer-motion'
+import React from 'react';
+import { motion } from 'framer-motion';
 import Button from '../Button';
 import Links from '../Links';
 import "../../index.css"
