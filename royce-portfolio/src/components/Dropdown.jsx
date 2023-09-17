@@ -33,19 +33,19 @@ const Dropdown = () => {
         } transition-all duration-300 ease-in-out`}
       >
         <ul className="py-1">
-        <li className="px-4 py-2 text-sm text-black tracking-widest">
+        <li className="px-4 py-2 text-xs text-black tracking-widest">
               Multi-disciplinary Designer
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
               Computer Engineer
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             Food Enthuiast
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             Developer
           </li>
-          <li className="px-4 py-2 text-sm text-black font-bold tracking-widest">
+          <li className="px-4 py-2 text-xs text-black font-bold tracking-widest">
             Founder of REVITAL
           </li>
         </ul>
@@ -63,22 +63,22 @@ const Dropdown = () => {
         } transition-all duration-300 ease-in-out`}
       >
         <ul className="py-1">
-        <li className="px-4 py-2 text-sm text-black tracking-widest">
+        <li className="px-4 py-2 text-xs text-black tracking-widest">
             Austin
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             Houston
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             Seattle
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             Chicago
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             Washington D.C.
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             New Orleans
           </li>
           <li className="px-4 py-2 text-sm text-black tracking-widest font-bold">
@@ -98,19 +98,19 @@ const Dropdown = () => {
         } transition-all duration-300 ease-in-out`}
       >
         <ul className="py-1">
-        <li className="px-4 py-2 text-sm text-black tracking-widest">
+        <li className="px-4 py-2 text-xs text-black tracking-widest">
             Web Developing
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             UX/UI
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             Architecture
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             Design
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-black tracking-widest">
             Culinary
           </li>
         </ul>
