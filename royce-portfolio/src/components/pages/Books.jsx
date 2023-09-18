@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 const Books = () => {
   return (
-    <div className='w-48 h-72 bg-gray-100 rounded-md'>
-      <h1 className='m-4'>Books</h1>
+    <div
+      className='w-48 h-72 rounded-md m-4 cursor-pointer shadow-xl bg-cover bg-center hover:shadow-xl hover:shadow-orange-600 transition ease-in duration-800'
+      style={{ backgroundImage: "url('./src/images/books-portfolio.jpg')" }}
+        >
+      <h1 className='m-4 text-xl text-black'>Readings</h1>
     </div>
-  )
+  );
 }
 
-export default Books
+export default Books;
