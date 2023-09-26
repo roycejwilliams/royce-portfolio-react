@@ -15,7 +15,7 @@ const Portfolio = () => {
         </ul>
        <Sources />
       </div>
-      <div className='bg-gradient-to-b from-gray-300 via-gray-200 to-white h-full w-2/4 flex justify-center items-center overflow-hidden'>
+      <div className='bg-gradient-to-b from-gray-500 via-gray-200 to-white h-full w-2/4 flex justify-center items-center overflow-hidden'>
           <Carousel />  
       </div>
     </div>
