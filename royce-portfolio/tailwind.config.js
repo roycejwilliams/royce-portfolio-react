@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         libre: ["Libre Baskerville"],
       },
+      colors: {
+        rosered: "#844444",
+      },
     },
   },
   plugins: [],

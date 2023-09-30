@@ -23,8 +23,8 @@ const Dropdown = () => {
 
   return (
     <div className="relative inline-block text-left">
-      <span className="text-m tracking-widest text-black">Who Am I ?</span>
-      <button onClick={toggleDown1} className="ml-2 p-2 cursor-pointer">
+      <span className="text-m tracking-widest text-white">Who Am I ?</span>
+      <button onClick={toggleDown1} className="ml-2 p-2 cursor-pointer text-white">
         {isOpen1 ? (
         <FontAwesomeIcon icon={faChevronDown} /> ) : (<FontAwesomeIcon icon={faChevronRight} />)}     </button>
       <div
@@ -33,26 +33,26 @@ const Dropdown = () => {
         } transition-all duration-300 ease-in-out`}
       >
         <ul className="py-1">
-        <li className="px-4 py-2 text-xs text-black tracking-widest">
+        <li className="px-4 py-2 text-xs text-white tracking-widest">
               Multi-disciplinary Designer
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
               Computer Engineer
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             Food Enthuiast
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             Developer
           </li>
-          <li className="px-4 py-2 text-xs text-black font-bold tracking-widest">
+          <li className="px-4 py-2 text-xs text-white font-bold tracking-widest">
             Founder of REVITAL
           </li>
         </ul>
       </div>
       {/* Second Section */}
-      <span className="text-m tracking-widest text-black">Based ? </span>
-      <button onClick={toggleDown2} className="ml-2 p-2 cursor-pointer">
+      <span className="text-m tracking-widest text-white">Based ? </span>
+      <button onClick={toggleDown2} className="ml-2 p-2 cursor-pointer text-white">
         {isOpen2 ? (
         <FontAwesomeIcon icon={faChevronDown} /> ) : (
           <FontAwesomeIcon icon={faChevronRight} /> )  }
@@ -63,32 +63,32 @@ const Dropdown = () => {
         } transition-all duration-300 ease-in-out`}
       >
         <ul className="py-1">
-        <li className="px-4 py-2 text-xs text-black tracking-widest">
+        <li className="px-4 py-2 text-xs text-white tracking-widest">
             Austin
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             Houston
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             Seattle
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             Chicago
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             Washington D.C.
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             New Orleans
           </li>
-          <li className="px-4 py-2 text-sm text-black tracking-widest font-bold">
+          <li className="px-4 py-2 text-sm text-white tracking-widest font-bold">
             ANYWHERE, EVERYWHERE
           </li>
         </ul>
       </div>
         {/* Third Section */}
-      <span className="text-m tracking-widest text-black">Interest ? </span>
-      <button onClick={toggleDown3} className="ml-2 p-2 cursor-pointer">
+      <span className="text-m tracking-widest text-white">Interest ? </span>
+      <button onClick={toggleDown3} className="ml-2 p-2 cursor-pointer text-white">
         {isOpen3 ? (
         <FontAwesomeIcon icon={faChevronDown} />) : (<FontAwesomeIcon icon={faChevronRight} />) }
       </button>
@@ -98,19 +98,19 @@ const Dropdown = () => {
         } transition-all duration-300 ease-in-out`}
       >
         <ul className="py-1">
-        <li className="px-4 py-2 text-xs text-black tracking-widest">
+        <li className="px-4 py-2 text-xs text-white tracking-widest">
             Web Developing
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             UX/UI
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             Architecture
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             Design
           </li>
-          <li className="px-4 py-2 text-xs text-black tracking-widest">
+          <li className="px-4 py-2 text-xs text-white tracking-widest">
             Culinary
           </li>
         </ul>
