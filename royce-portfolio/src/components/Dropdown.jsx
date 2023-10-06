@@ -22,8 +22,8 @@ const Dropdown = () => {
   };
 
   return (
-    <div className="relative inline-block text-left">
-      <span className="text-m tracking-widest text-white">Who Am I ?</span>
+    <div className="relative inline-block text-left ">
+      <span className="text-m tracking-widest text-white font-azeret">Who Am I?</span>
       <button onClick={toggleDown1} className="ml-2 p-2 cursor-pointer text-white">
         {isOpen1 ? (
         <FontAwesomeIcon icon={faChevronDown} /> ) : (<FontAwesomeIcon icon={faChevronRight} />)}     </button>
@@ -32,7 +32,7 @@ const Dropdown = () => {
           isOpen1 ? 'max-h-48' : 'max-h-0'
         } transition-all duration-300 ease-in-out`}
       >
-        <ul className="py-1">
+        <ul className="py-1 font-azeret">
         <li className="px-4 py-2 text-xs text-white tracking-widest">
               Multi-disciplinary Designer
           </li>
@@ -51,7 +51,7 @@ const Dropdown = () => {
         </ul>
       </div>
       {/* Second Section */}
-      <span className="text-m tracking-widest text-white">Based ? </span>
+      <span className="text-m tracking-widest text-white font-azeret">Based? </span>
       <button onClick={toggleDown2} className="ml-2 p-2 cursor-pointer text-white">
         {isOpen2 ? (
         <FontAwesomeIcon icon={faChevronDown} /> ) : (
@@ -62,7 +62,7 @@ const Dropdown = () => {
           isOpen2 ? 'max-h-72' : 'max-h-0'
         } transition-all duration-300 ease-in-out`}
       >
-        <ul className="py-1">
+        <ul className="py-1 font-azeret">
         <li className="px-4 py-2 text-xs text-white tracking-widest">
             Austin
           </li>
@@ -87,7 +87,7 @@ const Dropdown = () => {
         </ul>
       </div>
         {/* Third Section */}
-      <span className="text-m tracking-widest text-white">Interest ? </span>
+      <span className="text-m tracking-widest text-white font-azeret">Interest? </span>
       <button onClick={toggleDown3} className="ml-2 p-2 cursor-pointer text-white">
         {isOpen3 ? (
         <FontAwesomeIcon icon={faChevronDown} />) : (<FontAwesomeIcon icon={faChevronRight} />) }
@@ -97,7 +97,7 @@ const Dropdown = () => {
           isOpen3 ? 'max-h-52' : 'max-h-0'
         } transition-all duration-300 ease-in-out`}
       >
-        <ul className="py-1">
+        <ul className="py-1 font-azeret">
         <li className="px-4 py-2 text-xs text-white tracking-widest">
             Web Developing
           </li>

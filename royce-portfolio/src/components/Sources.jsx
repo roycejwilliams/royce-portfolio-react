@@ -4,7 +4,7 @@ import Thoughts from './pages/Thoughts'
 
 const Sources = () => {
   return (
-    <div className='w-auto h-auto flex justify-center items-center'>
+    <div className='w-auto h-auto flex justify-center items-center font-azeret'>
         <Books />
         <Thoughts />
     </div>

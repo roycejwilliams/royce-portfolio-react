@@ -5,9 +5,20 @@ export default {
     extend: {
       fontFamily: {
         libre: ["Libre Baskerville"],
+        outfit: ["'Outfit', sans-serif"],
+        azeret: ["'Azeret Mono', sans-serif"],
       },
       colors: {
         rosered: "#844444",
+      },
+      animation: {
+        "infinite-scroll": "infinite-scroll 25s linear infinite",
+      },
+      keyframes: {
+        "infinite-scroll": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(-100%)" },
+        },
       },
     },
   },
