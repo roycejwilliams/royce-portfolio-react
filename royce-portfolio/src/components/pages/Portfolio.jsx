@@ -5,6 +5,7 @@ import Carousel from '../Carousel';
 import Sources from '../Sources';
 import Photo from '../Photo';
 import Autobio from '../Autobio';
+import Grid from '../Grid';
 
 
 
@@ -25,12 +26,9 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div>
-        <Photo />
-      </div>
-
+      <Photo />      
       <Autobio />
-      
+      <Grid />
     </div>
   )
 }
