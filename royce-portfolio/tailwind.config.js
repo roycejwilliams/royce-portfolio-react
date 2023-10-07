@@ -7,9 +7,17 @@ export default {
         libre: ["Libre Baskerville"],
         outfit: ["'Outfit', sans-serif"],
         azeret: ["'Azeret Mono', sans-serif"],
+        clash: ["'Clash Display', sans-serif"], // Removed the extra semicolon here
       },
       colors: {
         rosered: "#844444",
+      },
+      fontWeight: {
+        light: "200",
+        regular: "400",
+        medium: "500",
+        bold: "600",
+        heavy: "700",
       },
       animation: {
         "infinite-scroll": "infinite-scroll 25s linear infinite",
@@ -19,6 +27,15 @@ export default {
           from: { transform: "translateY(0)" },
           to: { transform: "translateY(-100%)" },
         },
+        "slide-right": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(100%)" },
+        },
+      },
+      textShadow: {
+        xs: "1px 1px 2px rgba(0, 0, 0, 0.3)",
+        sm: "2px 2px 4px rgba(0, 0, 0, 0.3)",
+        md: "3px 3px 6px rgba(0, 0, 0, 0.3)",
       },
     },
   },
