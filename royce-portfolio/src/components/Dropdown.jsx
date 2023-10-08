@@ -23,7 +23,7 @@ const Dropdown = () => {
 
   return (
     <div className="relative inline-block text-left">
-      <span className="text-m tracking-widest text-white font-clash font-bold">Who Am I ?</span>
+      <span className="text-m tracking-widest text-white font-clash font-medium uppercase">Who Am I ?</span>
       <button onClick={toggleDown1} className="ml-2 p-2 cursor-pointer text-white">
         {isOpen1 ? (
         <FontAwesomeIcon icon={faChevronDown} /> ) : (<FontAwesomeIcon icon={faChevronRight} />)}     </button>
@@ -51,7 +51,7 @@ const Dropdown = () => {
         </ul>
       </div>
       {/* Second Section */}
-      <span className="text-m tracking-widest text-white font-clash font-bold">Based ? </span>
+      <span className="text-m tracking-widest text-white font-clash font-medium uppercase">Based ? </span>
       <button onClick={toggleDown2} className="ml-2 p-2 cursor-pointer text-white">
         {isOpen2 ? (
         <FontAwesomeIcon icon={faChevronDown} /> ) : (
@@ -87,7 +87,7 @@ const Dropdown = () => {
         </ul>
       </div>
         {/* Third Section */}
-      <span className="text-m tracking-widest text-white font-clash font-bold">Interest ? </span>
+      <span className="text-m tracking-widest text-white font-clash font-medium uppercase">Interest ? </span>
       <button onClick={toggleDown3} className="ml-2 p-2 cursor-pointer text-white">
         {isOpen3 ? (
         <FontAwesomeIcon icon={faChevronDown} />) : (<FontAwesomeIcon icon={faChevronRight} />) }

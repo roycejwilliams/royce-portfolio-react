@@ -9,6 +9,9 @@ export default {
         azeret: ["'Azeret Mono', sans-serif"],
         clash: ["'Clash Display', sans-serif"], // Removed the extra semicolon here
       },
+      gridRow: {
+        2.5: "span 2.5",
+      },
       colors: {
         rosered: "#844444",
       },
