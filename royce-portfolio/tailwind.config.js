@@ -9,6 +9,11 @@ export default {
         azeret: ["'Azeret Mono', sans-serif"],
         clash: ["'Clash Display', sans-serif"], // Removed the extra semicolon here
       },
+      height: {
+        50: "50px",
+        150: "150px",
+        300: "300px",
+      },
       gridRow: {
         2.5: "span 2.5",
       },
@@ -24,15 +29,16 @@ export default {
       },
       animation: {
         "infinite-scroll": "infinite-scroll 25s linear infinite",
+        "slide-left": "slide-left 25s linear infinite",
       },
       keyframes: {
         "infinite-scroll": {
           from: { transform: "translateY(0)" },
           to: { transform: "translateY(-100%)" },
         },
-        "slide-right": {
+        "slide-left": {
           from: { transform: "translateX(0)" },
-          to: { transform: "translateX(100%)" },
+          to: { transform: "translateX(-100%)" },
         },
       },
       textShadow: {

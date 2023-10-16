@@ -6,6 +6,7 @@ import Sources from '../Sources';
 import Photo from '../Photo';
 import Autobio from '../Autobio';
 import Grid from '../Grid';
+import Footer from '../Footer';
 
 
 
@@ -29,6 +30,7 @@ const Portfolio = () => {
       <Photo />      
       <Autobio />
       <Grid />
+      <Footer />
     </div>
   )
 }

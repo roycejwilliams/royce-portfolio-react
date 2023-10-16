@@ -99,10 +99,10 @@ const Dropdown = () => {
       >
         <ul className="py-1 font-clash">
         <li className="px-4 py-2 text-xs text-white tracking-widest">
-            Web Developing
+            Typography
           </li>
           <li className="px-4 py-2 text-xs text-white tracking-widest">
-            UX/UI
+            Photography
           </li>
           <li className="px-4 py-2 text-xs text-white tracking-widest">
             Architecture
