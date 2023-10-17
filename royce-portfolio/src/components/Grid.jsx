@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
+
+
 
 
 const Grid = () => {
@@ -20,15 +24,14 @@ const Grid = () => {
   // Defining Back and Forth Functions
 
   const handlePrev = () => {
-    if(currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1)
-    }
+    setCurrentIndex((currentIndex - 1 + sounds.length) % sounds.length);
   }
 
+  
+
+  
   const handleForward = () => {
-    if(currentIndex < sounds.length - 1) {
-      setCurrentIndex(currentIndex + 1)
-    }
+    setCurrentIndex((currentIndex + 1) % sounds.length);
   }
 
 
@@ -92,6 +95,7 @@ const Grid = () => {
             {/* Apple Music - Rotation */}
             <div className='bg-black rounded-lg shadow-xl col-span-2 flex'>
                 <div className='w-2/5 h-full flex justify-center items-center' >
+                      {/* apple music logo */}
                   <div className='w-5/6 h-5/6 flex justify-center items-center' >
                     <img
                         src="./src/images/Apple_Music.png"
@@ -99,16 +103,13 @@ const Grid = () => {
                       />
                   </div>
                 </div>
-                  
-                <div className='w-3/5 h-full flex flex-col justify-center'>
-                  <div className='w-full border flex'>
+                  {/*Songs*/}
+                <div className='w-3/5 h-full flex flex-col justify-center overflow-hidden'>
+                  <div className='w-full flex justify-between'>
                       <h3 className='uppercase font-clash mb-4 tracking-widest text-white text-2xl font-bold'>Current Rotation</h3>
-                      <div className='w-auto h-auto'>
-                        <button></button>
-                        <button></button>
-                      </div>
+                      
                   </div>
-                  <div className='flex overflow-hidden w-auto gap-4 '> 
+                  <div className='flex w-auto gap-4 '> 
                   {sounds.map((slide, index) => (
                       <iframe 
                         allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
@@ -116,11 +117,15 @@ const Grid = () => {
                         height="200"
                         key={index}
                         style={{ maxWidth: '500px', maxHeight:'500px', overflow: 'hidden', borderRadius: '10px' }}
-                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
                         src= {slide}
                       >
                       </iframe>
                   )) }
+                  </div>
+                  {/* forward & previous button */}
+                  <div className='w-full h-auto flex gap-72 justify-center'>
+                        <button onClick={handlePrev} className='w-8 h-8 hover:bg-white/20 rounded-full flex items-center justify-center transition ease-in duration-800 animate-carousel-left'><FontAwesomeIcon icon={faChevronLeft} style={{color: "#ffffff", fontSize: '16px'}} /></button>
+                        <button onClick={handleForward} className='w-8 h-8 hover:bg-white/20 rounded-full flex items-center justify-center transition ease-in duration-800 animate-carousel-right'><FontAwesomeIcon icon={faChevronRight} style={{color: "#ffffff", fontSize: '16px'}} /></button>
                   </div>
                 </div>
             </div>

@@ -30,6 +30,8 @@ export default {
       animation: {
         "infinite-scroll": "infinite-scroll 25s linear infinite",
         "slide-left": "slide-left 25s linear infinite",
+        "carousel-right": "0.5s ease linear",
+        "carousel-left": "0.5s ease linear",
       },
       keyframes: {
         "infinite-scroll": {
@@ -39,6 +41,30 @@ export default {
         "slide-left": {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(-100%)" },
+        },
+        "carousel-left": {
+          from: {
+            transform:
+              "translateX(-10px)" /* Start position (off-screen to the left) */,
+            opacity: "0",
+          },
+          to: {
+            transform:
+              "translateX(0px)" /* End position (off-screen to the left) */,
+            opacity: "1",
+          },
+        },
+        "carousel-right": {
+          from: {
+            transform:
+              "translateX(10px)" /* Start position (off-screen to the right) */,
+            opacity: "0",
+          },
+          to: {
+            transform:
+              "translateX(0px)" /* End position (off-screen to the right) */,
+            opacity: "1",
+          },
         },
       },
       textShadow: {
