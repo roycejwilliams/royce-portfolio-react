@@ -107,9 +107,8 @@ const Grid = () => {
                 <div className='w-3/5 h-full flex flex-col justify-center overflow-hidden'>
                   <div className='w-full flex justify-between'>
                       <h3 className='uppercase font-clash mb-4 tracking-widest text-white text-2xl font-bold'>Current Rotation</h3>
-                      
                   </div>
-                  <div className='flex w-auto gap-4 '> 
+                  <div className='inline-flex w-auto gap-4 '> 
                   {sounds.map((slide, index) => (
                       <iframe 
                         allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"

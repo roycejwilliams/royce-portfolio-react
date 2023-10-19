@@ -7,17 +7,17 @@ import Photo from '../Photo';
 import Autobio from '../Autobio';
 import Grid from '../Grid';
 import Footer from '../Footer';
+import Navbar from '../Navbar';
 
 
 
 const Portfolio = () => {
   return (
     <div >
-
-
+      <Navbar />
       <div className='flex h-screen w-full bg-gradient-to-r from-rosered via-rosered to-white '> 
         <div className='w-2/4 flex justify-center items-center'>
-          <ul className='w-auto h-auto flex items-center justify-center m-4'>
+          <ul className='w-auto h-auto flex flex-col items-center justify-center m-4'>
             <Dropdown />
           </ul>
             <Sources />

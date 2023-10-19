@@ -45,7 +45,7 @@ export default {
         "carousel-left": {
           from: {
             transform:
-              "translateX(-10px)" /* Start position (off-screen to the left) */,
+              "translateX(-100px)" /* Start position (off-screen to the left) */,
             opacity: "0",
           },
           to: {
@@ -57,7 +57,7 @@ export default {
         "carousel-right": {
           from: {
             transform:
-              "translateX(10px)" /* Start position (off-screen to the right) */,
+              "translateX(100px)" /* Start position (off-screen to the right) */,
             opacity: "0",
           },
           to: {
