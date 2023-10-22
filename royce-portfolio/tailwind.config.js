@@ -13,6 +13,7 @@ export default {
         50: "50px",
         150: "150px",
         300: "300px",
+        700: "700px",
       },
       gridRow: {
         2.5: "span 2.5",

@@ -21,7 +21,9 @@ const Bio = () => {
       <Navbar />
         <div className=' w-auto h-full flex'>
           <div className='w-1/2 flex justify-center items-center'>
-            <h1 className='text-white text-3xl font-clash ml-4 tracking-wider font-medium'>Hey, I'm Royce Williams. I'm a Computer Engineer and Multi-Disciplinary Designer building brands and digital experiences.</h1>
+            <div className='w-5/6'>
+              <h1 className='text-white text-xl font-clash ml-4 tracking-wider font-medium'>Hey, I'm Royce Williams. <br></br><br></br> I'm a Computer Engineer and Multi-Disciplinary Designer building brands and digital experiences.</h1>
+            </div>
           </div>
 
           <div className='w-1/2 flex justify-center items-center'>

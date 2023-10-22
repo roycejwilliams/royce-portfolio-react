@@ -40,7 +40,11 @@ const Grid = () => {
 
     /*social media icons*/
     const logoFiles = ['./src/images/twitter-x-logo.png', './src/images/instagram.png', './src/images/linkedIn.webp', './src/images/git.png', './src/images/google.png']
-
+    const href = ['https://twitter.com/roycwilliams',
+                  'https://www.instagram.com/roycejwilliams/',
+                  'https://www.linkedin.com/in/royce-williams-9bb2021a1/',
+                  'https://github.com/roycejwilliams',
+                  'mailto: roycewilliamsj@gmail.com']
 
     /* tools icons */
     const tools = ['./src/images/vitejs.png', './src/images/reactjs.png', './src/images/javascript.png', './src/images/figma.png', './src/images/adobe.png', './src/images/notion.png', './src/images/dropbox.png', './src/images/nextjs.png'];
@@ -75,12 +79,14 @@ const Grid = () => {
                <div className='w-5/6 h-auto flex flex-col justify-center'>
                   <h2 className='uppercase text-xl font-clash tracking-widest font-bold text-white'>socials</h2>
                   <ul className='w-full h-2/5 flex items-center justify-between'>
-                    {logoFiles.map((logoFile, index) => (
+                  {logoFiles.map((logo, index) => (
+                      <a href={href[index]}>
                         <li 
-                        key={index}
-                        className='bg-gray-800 w-14 h-14 rounded-xl shadow-xl shadow-gray-800 hover:shadow-white hover:scale-75 transition ease-in duration-800'>
-                          <img src={logoFile} alt={`Logo ${index + 1}`} />
+                          key={index} 
+                          className="bg-gray-800 w-14 h-14 rounded-xl hover:scale-75 transition ease-in 800s hover:shadow-xl hover:shadow-white">
+                          <img src={logo} />
                         </li>
+                      </a>
                     ))}
                   </ul>
                </div>
